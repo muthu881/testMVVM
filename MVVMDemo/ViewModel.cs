@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Input;
 using System.Collections.ObjectModel;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 
 namespace MVVMDemo
 {
@@ -74,7 +74,7 @@ namespace MVVMDemo
             var secondPdfPath = "test1";
 
             var name = $"Begin compare {firstPdfPath} & {secondPdfPath}";
-          var data =  JsonConvert.SerializeObject(Students);
+          //var data =  JsonConvert.SerializeObject(Students);
         }
 
         public float YPosition { get; set; }
